@@ -13,8 +13,8 @@
 
 	bool is_help = args.help;
 	bool is_verbose = args.verbose;
-	std::ofstream(args.outfile);
-	std::ifstream(args.infile);
+	std::ofstream out(args.outfile);
+	std::ifstream in(args.infile);
 
 	auto value = args.get("key");
 
