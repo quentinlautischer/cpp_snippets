@@ -5,6 +5,8 @@
 #include <functional>
 #include <stdexcept>
 #include <ios>
+#include <iostream>
+#include <sstream>
 
 /* Usage: 
 
